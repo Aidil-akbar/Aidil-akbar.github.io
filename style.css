@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    height: 5000px;
+}
+/* navigation */
+nav {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.7);
+}
+nav h1 {
+    margin-left: 50px;
+    letter-spacing: 2px;
+    color: black;
+
+}
+.navigation ul {
+    width: 600px;
+    height: 35px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation ul li {
+    list-style: none;
+}
+.navigation ul li a {
+    text-decoration: none;
+    color:black;
+}
+.navigation ul li a:hover {
+    color: rgb(97, 118, 212);
+}
+
+ a.tbl-biru {
+    background-color: rgb(80, 80, 255);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+a.tbl-biru:hover {
+    background-color: rgb(232, 232, 232);
+    /* color: white; */
+    text-decoration: underline;
+}
+
+/* end navigation */
+
+/* isi */
+.isi {
+    margin-top: 50px;
+    margin-bottom: 111px;
+    /* border: 1px solid; */
+}
+.container {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid; */
+}
+.isi img {
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 48px;
+
+}
+.isi h4 {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-family:cursive;
+    letter-spacing: 1px;
+    font-size: 25px;
+    line-height: 50px;
+}
+.isi h1 {
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.isi p {
+    font-size: 15px;
+    font-family: verdana;
+    letter-spacing: 1px;
+}
+p {
+    margin: 20px 0 0 0;
+    padding: 10px 0;
+}
+a.tbl-pink {
+    background-color:red;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.tbl-pink:hover {
+    background-color:  rgb(80, 80, 255);
+    /* color: white; */
+    text-decoration: underline;
+}
+/* end isi */
+
+.isi .dua img {
+    float: right;
+}
+/* end isi */
+
+/* footer */
+.footer {
+    margin-top: 157px;
+    text-align: center;
+}
+.footer h4 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.footer h1 {
+    font-family: cursive;
+    font-size: 35px;
+}
+.box {
+    width: 25%;
+    float: left;
+}
+.box img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.box h3 {
+    padding-top: 10px;
+    font-family: cursive;
+}
+/* end footer */
